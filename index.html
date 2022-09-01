@@ -1,1 +1,9 @@
 <h1>2023 Cruise Brocure</h1>
+<div x-data="{ open: false }">
+    <button @click="open = true">Expand</button>
+    
+    <span x-show="open">
+        Content...
+    </span>
+</div>
+<script src="Scripts/alpine_3.10.2.min.js" defer></script>
